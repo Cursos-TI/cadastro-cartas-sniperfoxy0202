@@ -50,11 +50,11 @@ printf("Digite a Quantidade de Pontos Turístico: \n");
  // Área para exibição dos dados da cidade da primeira carta
 printf("Carta 1\n\n");
 
-printf("Estado: %s\nCódigo da carta: %s\nCidade: %s\nPopulação: %d\nÁrea Territoral: %f\nPIB: %f\nQuantidade de Pontos Turísticos: %d\n\n", Estado1, Codigo_da_Carta1, Cidade1, População1, Area_Territorial1, PIB1, Pontos_Turisticos1);
+printf("Estado: %s\nCódigo da carta: %s\nCidade: %s\nPopulação: %d\nÁrea Territoral: %.2f\nPIB: %.2f\nQuantidade de Pontos Turísticos: %d\n\n", Estado1, Codigo_da_Carta1, Cidade1, População1, Area_Territorial1, PIB1, Pontos_Turisticos1);
  // Área para exibição dos dados da cidade da segunda carta
 printf("Carta 2:\n\n");
 
-printf("Estado: %s\nCódigo da carta: %s\nCidade: %s\nPopulação: %d\nÁrea Territoral: %f\nPIB: %f\nQuantidade de Pontos Turísticos: %d\n\n", Estado2, Codigo_da_Carta2, Cidade2, População2, Area_Territorial2, PIB2, Pontos_Turisticos2);
+printf("Estado: %s\nCódigo da carta: %s\nCidade: %s\nPopulação: %d\nÁrea Territoral: %.2f\nPIB: %.2f\nQuantidade de Pontos Turísticos: %d\n\n", Estado2, Codigo_da_Carta2, Cidade2, População2, Area_Territorial2, PIB2, Pontos_Turisticos2);
 
     return 0;
 }
