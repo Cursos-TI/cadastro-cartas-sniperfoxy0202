@@ -26,9 +26,9 @@ printf("Digite a Cidade: \n");
 printf("Digite a População: \n");
    scanf("%d", &População1);
 printf("Digite a Área Territorial em Km²: \n");
-   scanf("%f", &Area_Territorial1);
+   scanf("%.2f", &Area_Territorial1);
 printf("Digite o PIB: \n");
-  scanf("%f", &PIB1);
+  scanf("%.2f", &PIB1);
 printf("Digite a Quantidade de Pontos Turísticos: \n");
   scanf("%d", &Pontos_Turisticos1);
  
@@ -43,9 +43,9 @@ printf("Digite a Cidade: \n");
 printf("Digite a População: \n");
    scanf("%d", &População2);
 printf("Digite a Área Territorial em Km²: \n");
-   scanf("%f", &Area_Territorial2);
+   scanf("%.2f", &Area_Territorial2);
 printf("Digite o PIB: \n");
-   scanf("%f", &PIB2);
+   scanf("%.2f", &PIB2);
 printf("Digite a Quantidade de Pontos Turístico: \n");
    scanf("%d", &Pontos_Turisticos2);
  // Área para exibição dos dados da cidade da primeira carta
