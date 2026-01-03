@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Desafio Super Trunfo - Países
-// Objetivo: No nível Mestre o programa continuará lendo as mesmas informações do usuário e agora deve Calcular a Densidade Populacional e o PIB per Capita e exibir os resultados.
+//nível Mestre
 
 int main() {
     // Área para definição das variáveis para armazenar as propriedades das cidades
