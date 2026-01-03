@@ -63,10 +63,10 @@ Densidade_Populacional2 = População2 / Area_Territorial2;
 PIB_per_Capita2 = População2 / PIB2;
 
 printf("Estado: %s\nCódigo da carta: %s\nCidade: %s\nPopulação: %d\nÁrea Territoral: %.2f\nPIB: %.2f\nQuantidade de Pontos Turísticos: %d\nDensidade Populacional: %.2f\nPIB per Capita; %.2f\n\n", Estado2, Codigo_da_Carta2, Cidade2, População2, Area_Territorial2, PIB2, Pontos_Turisticos2, Densidade_Populacional2, PIB_per_Capita2);
-
+//Área para o calculo dos Super Poderes
     Super_Poder1 = População1 + Area_Territorial1 + PIB1 + Pontos_Turisticos1 + Densidade_Populacional1 + PIB_per_Capita1;
       Super_Poder2 = População2 + Area_Territorial2 + PIB2 + Pontos_Turisticos2 + Densidade_Populacional2 + PIB_per_Capita2;
-      
+ //Área para a exibição dos atributos vencedores de cada carta     
 printf("População: Carta %d venceu\n",
        1 + (População2 > População1));
 
